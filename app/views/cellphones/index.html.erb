@@ -1,0 +1,8 @@
+<% @cellphones.each do |cellphone| %>
+  <div>
+    <img src<%= cellphone.img_src %>
+    <h3> <%= cellphone.title %></h3>
+    <strong><%= cellphone.price %></strong>
+    <i> <%= cellphone.star_count %></i>
+  </div>
+<% end %>
